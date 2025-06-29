@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Inscription</title>
+    <link rel="stylesheet" href="co.css" />
+  </head>
+  <body>
+    <form action="inscription.php" method="post">
+      <h1>Inscription</h1>
+      <div class="">
+        <p class="">pseudo</p>
+        <input
+          type="text"
+          id="USER"
+          name="USER"
+          class="style1"
+          required
+        /><br />
+        <p class="">mot de passe</p>
+        <input
+          type="password"
+          id="MDP"
+          name="MDP"
+          class="style2"
+          required
+        /><br />
+        <p class="">Type de compte</p>
+        <select id="TYPECOMPTE" name="TYPECOMPTE" class="style1" required>
+          <option value="adm">Admin</option>
+          <option value="cli">Client</option></select
+        ><br />
+        <input type="submit" value="S'inscrire" class="style11" /><br />
+        <input type="reset" value="Annuler" class="style11" /><br />
+        <p class="style111">
+          Déjà un compte ? <a href="connexion.html">Se connecter</a>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

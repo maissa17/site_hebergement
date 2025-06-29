@@ -1,0 +1,70 @@
+
+body{
+    background-image: url(connexion.png);
+      background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #f0f0f0;
+  position: relative;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(49, 21, 3);
+    margin: 10px;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px ;
+}
+
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 20px;
+    font-size: 18px;
+    font-family: fantasy;
+    text-shadow: 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 10px;
+}
+
+.style1 , .style2{
+    background-color: rgb(82, 49, 26);
+    border-radius: 10px;
+    height: 35px;
+    width: 200px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    margin-left: 43%;
+    color: white;
+}
+
+.style10 , .style11{
+    margin-top: 10px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgba(255, 147, 6, 0.933);
+    width: 150px;
+    margin-left: 45%;
+}
+
+a{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+}
+
+.style111{
+    color: rgb(0, 0, 0);
+    height: 20px;
+    font-size: 18px;
+    font-family: fantasy;
+}

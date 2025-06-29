@@ -1,0 +1,91 @@
+/* Style général */
+body {
+ 
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(fontAccueil.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #f0f0f0;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 40, 0.5);
+  z-index: -1;
+}
+
+/* Navigation */
+nav {
+  background: rgba(8, 8, 40, 0.8);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav li {
+  position: relative;
+}
+
+nav a {
+  display: block;
+  padding: 18px 28px;
+  color: #f0f0f0;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav li:hover > a {
+  background-color: #4a5cd9;
+  color: #ffffff;
+}
+
+/* Sous-menu */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #101135ee;
+  min-width: 200px;
+  z-index: 10;
+}
+
+nav li:hover .submenu {
+  display: block;
+}
+
+.submenu li a {
+  padding: 12px 20px;
+  font-size: 14px;
+  color: #dddddd;
+  background-color: transparent;
+}
+
+.submenu li:hover a {
+  background-color: #303885;
+  color: #fff;
+}
+
+
+/* Style titre PHP */
+.php {
+  font-size: 1.2em;
+  color: #ffffff;
+  text-shadow: rgb(2, 3, 17) 0.1em 0.1em 0.2em;
+  font-weight: 700;
+  margin-top: 30px;
+  text-align: center;
+}
